@@ -1,0 +1,11 @@
+@keyframes spinAround {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.icon-loading {
+  animation: spinAround 0.65s linear infinite;
+}
